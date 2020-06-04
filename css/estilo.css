@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+} 
+#cabecalho{
+    height: 100px;
+    background-color: #644c4c;
+    text-align: center;
+}
+
+#cabecalho:hover{
+    background-color: #dd5757;
+    transition: 1s;
+}
+
+#menu-principal{
+    background-color: #dd5757;
+    position: relative;
+    top: 20px;
+    height: 60px;
+}
+
+#menu-principal:hover{
+    background-color: #644c4c;
+    transition: 1s;
+}
+
+#menu-principal h1{
+    display: none;
+}
+
+#menu-cab{
+    background-color: #644c4c;
+    position: relative;
+    top: 15px;
+    height: 30px;
+    
+}
+
+#menu-cab:hover{
+    background-color: #dd5757;
+    transition: 1s;
+}
+
+#lista-menu{
+    margin-right: 30px;
+}
+
+#lista-menu li{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    border: 2px solid #dd5757;
+    border-radius: 10px;
+    width: 100px;
+}
+
+#lista-menu li:hover{
+    border: 2px solid #644c4c;
+    transition: 1s;
+}
+
+#lista-menu li a{
+    list-style: none;
+    color: white;
+}
+
+#lista-menu li a:hover{
+    color: #644c4c;
+    transition: 1s;
+    
+}
+
+#comeco{
+    margin-top: 30px;
+}
+
+#comeco div header{
+    border: 4px dotted #644c4c;
+    text-align: center;
+    width: 300px;
+}
+
+#descricao{
+    margin-top: 60px;
+    border: 4px dotted #644c4c;
+    text-align: justify;
+    width: 600px;
+    height: auto;
+    position: relative;
+    left: 500px;
+}
+
+#comeco #imagens-comeco1{
+    border: 4px solid black;
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    bottom: 276px;
+}
+
+#comeco #imagens-comeco2{
+    border: 4px solid black;
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    bottom: 276px;
+    left: 250px;
+}
+
+#comeco #imagens-comeco3{
+    border: 4px solid black;
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    bottom: 276px;
+    left: 380px;
+}
+
+#comeco #imagens-comeco4{
+    border: 4px solid black;
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    top: 334px;
+    left: 380px;
+}
+
+#comeco #imagens-comeco5{
+    border: 4px solid black;
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    top: 334px;
+    left: 250px;
+}
+
+#comeco #imagens-comeco6{
+    border: 4px solid black;
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    top: 334px;
+}
+
+#comeco #zoom{
+    border: 2px solid black;
+    width: 360px;
+    height: 210px;
+    position: absolute;
+    top: 440px;
+    left: 131px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 60px;
+    height: 30px;
+    background-color: #644c4c;
+}
+
+footer h3{
+    font-size: 12pt;
+    margin: 0px;
+    padding-top: 5px;
+}
